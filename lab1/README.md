@@ -19,27 +19,32 @@
 ### Завдання 1: Операції з рядками
 Код функції `task1`:
 ```python
-def task1(s):
-    return len(s)
+def task1(str):
+    num = len(str)
+    return num
 ```
 ### Завдання 2: Математичні оператори
 Код функції `task2`:
 ```python
-def task2(num1, operator, num2):
-    if operator == '+':
-        return num1 + num2
-    elif operator == '-':
-        return num1 - num2
-    elif operator == '/':
-        return num1 / num2
-    elif operator == '//':
-        return num1 // num2
-    elif operator == '**':
-        return num1 ** num2
-    elif operator == '*':
-        return num1 * num2
-    else:
-        return "Невідомий оператор"
+def task2(n1, opr, n2):
+    if opr == '+':
+        num = n1 + n2
+        return num
+    elif opr == '-':
+        num = n1 - n2
+        return num
+    elif opr == '/':
+        num = n1 / n2
+        return num
+    elif opr == '//':
+        num = n1 // n2
+        return num
+    elif opr == '*':
+        num = n1 * n2
+        return num
+    elif opr == '**':
+        num = n1 ** n2
+        return num
 ```
 ### Завдання 3: Пошук максимального числа у списку
 Код функції `task3`:
