@@ -30,8 +30,6 @@ Create a Rectangle class that has width and height attributes, and a calculate_p
 Create an AverageCalculator class that has a numbers attribute and takes a list of integers. The class should have a calculate_average() method that returns the arithmetic mean of the numbers in the list.
 
 ## 2.4 Виконання роботи
-```python
-```
 ### Завдання 1: Class Creation
 Код функції `task1`:
 ```python
