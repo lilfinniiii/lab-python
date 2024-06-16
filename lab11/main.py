@@ -58,7 +58,6 @@ def task7(nums):
     
     return products
 
-# Task 8: Maximum Subarray Sum
 def task8(arr):
     max_sum = arr[0]
     current_sum = arr[0]
@@ -68,7 +67,6 @@ def task8(arr):
     return max_sum
 
 
-# Task 9: Spiral Order Matrix
 def task9(matrix):
     if not matrix:
         return []
@@ -97,7 +95,6 @@ matrix = [
     [7, 8, 9]
 ]
 
-# Task 10: K Closest Points to Origin
 import heapq
 def task10(points, k):
     if not points or k <= 0:
